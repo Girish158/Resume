@@ -1,0 +1,147 @@
+< !DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Company Profile</title><style>body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, #e0f7fa, #ffe0b2);
+  color: #333;
+  animation: bgShift 15s infinite alternate;
+}
+
+@keyframes bgShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  background: #ffffffcc;
+  border-radius: 15px;
+  padding: 40px 35px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  animation: fadeIn 1s ease forwards;
+}
+
+.header {
+  text-align: center;
+  padding: 25px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #6a0dad, #ff4081);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: slideDown 1s ease forwards;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.header p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #ffd700;
+}
+
+.section-title {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #6a0dad;
+  border-left: 6px solid #00bcd4;
+  padding-left: 12px;
+  font-weight: bold;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.content {
+  line-height: 1.8;
+  font-size: 16px;
+  margin-top: 10px;
+  animation: fadeInUp 1.2s ease forwards;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.content ul li {
+  margin: 8px 0;
+  position: relative;
+  padding-left: 25px;
+}
+
+/* Colored Icon Bullets */
+.content ul li::before {
+  content: '★';
+  position: absolute;
+  left: 0;
+  color: #ff9800;
+  font-size: 16px;
+  top: 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #555;
+  border-top: 1px solid #ccc;
+  padding-top: 12px;
+  animation: fadeIn 1.5s ease forwards;
+}
+
+a {
+  color: #6a0dad;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+</style></head><body><div class="container"><div class="header"><h2>ABC Tech Solutions Pvt. Ltd.</h2><p>Innovating Future With Technology</p></div><h3 class="section-title">About Company</h3><p class="content">ABC Tech Solutions is a leading software and IT services company committed to delivering innovative digital solutions. We help businesses streamline operations,
+improve efficiency,
+and achieve sustainable growth through modern technology. </p><h3 class="section-title">Our Core Values</h3><ul class="content"><li>Integrity & Trust</li><li>Innovation & Excellence</li><li>Customer-First Approach</li><li>Quality & Commitment</li></ul><h3 class="section-title">Services We Offer</h3><ul class="content"><li>Software Development</li><li>Web & Mobile Application Design</li><li>Cloud & IT Infrastructure Solutions</li><li>Cybersecurity & Data Protection</li><li>AI & Automation Services</li></ul><div class="footer">© 2025 ABC Tech Solutions Pvt. Ltd. | All Rights Reserved </div></div></body></html>
